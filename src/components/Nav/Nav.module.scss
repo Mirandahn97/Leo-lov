@@ -1,0 +1,32 @@
+@use "../../style/variabler.scss" as*;
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        li {
+            list-style: none;
+            border-right: 1px solid $blue   ;
+            
+            a {
+                text-decoration: none;
+                color: $blue;
+                
+            }
+        }
+    }
+    span {
+        color: $blue;
+        font-weight: 300;
+    }
+    
+    h4 {
+        color: $black;
+        font-weight: 300;
+        justify-self: end;
+    }
+}
