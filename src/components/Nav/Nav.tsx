@@ -18,7 +18,7 @@ export const Nav = () => {
                         <a href="#">Kontakt</a>
                     </li>
                 </ul>
-                <div> <h4><span>leo</span>-lov</h4> </div>
+                <div> <h4><span>Leo</span>-Lov</h4> </div>
             </nav>
         </>
     )
